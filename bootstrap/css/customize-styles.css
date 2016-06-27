@@ -2,3 +2,16 @@ body{
 	background-color: black;
 	color: white;
 }
+
+.button-play-style{
+	border-radius: 20px;
+	padding: 8px 70px 8px 70px;
+}
+
+.be-gray{
+	color: gray;
+}
+
+hr{
+	color: gray;
+}
