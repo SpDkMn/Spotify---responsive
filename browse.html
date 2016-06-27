@@ -5,76 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Spotyfy</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="app/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="">
-      <li><a href="#">Explorar</a></li>
+    <div class="sidebar">
+      <li><a href="#"><i class="fa fa-spotify" aria-hidden="true"></i> Explorar</a></li>
       <ul>
-        <li><a href="#">Buscar</a></li>
+        <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i>Buscar</a></li>
         <li><a href="#">Explorar</a></li>
         <li><a href="#">Radio</a></li>
         <li><a href="#">Tu música</a></li>
       </ul>
-      <div class="">
-        <img src="img/user.png" alt="Usuario" />
-        Usuario
-        <ul>
-          <li><a href="#"></a>Alerta</li>
-          <li><a href="#"></a>Configuración</li>
+      <div class="row">
+        <div class="col-xs-8">
+          <img src="img/user.png" alt="Usuario"  class="img-circle" />
+          Usuario
+        </div>
+        <div class="col-xs-4">
+          <div class="col-xs-6"><a href="#"></a><i class="fa fa-bell" aria-hidden="true"></i></div>
+          <div class="col-xs-6"><a href="#"></a><i class="fa fa-cog" aria-hidden="true"></i></div>
         </ul>
+        </div>
       </div>
     </div>
 
-    <div class="">
-      GÉNERO Y ESTADOS DE ÁNIMO
-      <div class="">
-        <div class=""><img src="img/latina.jpg" alt="" /></div>
-        <div class="">Latina</div>
+    <div class="container-fluid">
+      <div class="row">
+        <h1>GÉNERO Y ESTADOS DE ÁNIMO</h1>
+        <div class="col-xs-7 col-sm-3 col-md-3 sidebar sidebar-left sidebar-animate sidebar-md-show">
+          <ul class="nav navbar-stacked">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/latina.jpg" alt="" /></div>
+          <div class=""><a href="#">Latina</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/lgbtq.jpg" alt="" /></div>
+          <div class=""><a href="#">Orgullo LGBTQ</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/mood.jpg" alt="" /></div>
+          <div class=""><a href="#">Estado de ánimo</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/fiesta.jpg" alt="" /></div>
+          <div class=""><a href="#">Fiesta</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/pop.jpg" alt="" /></div>
+          <div class=""><a href="#">Pop</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/trending.jpg" alt="" /></div>
+          <div class=""><a href="#">Trending</a></div>
+        </div>
       </div>
-      <div class="">
-        <div class=""><img src="img/lgbtq.jpg" alt="" /></div>
-        <div class="">Orgullo LGBTQ</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/mood.jpg" alt="" /></div>
-        <div class="">Estado de ánimo</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/fiesta.jpg" alt="" /></div>
-        <div class="">Fiesta</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/pop.jpg" alt="" /></div>
-        <div class="">Pop</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/trending.jpg" alt="" /></div>
-        <div class="">Trending</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/concentracion.jpg" alt="" /></div>
-        <div class="">Concentración</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/rock.jpg" alt="" /></div>
-        <div class="">Rock</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/indie.jpg" alt="" /></div>
-        <div class="">Indie/Alternativa</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/dance.jpg" alt="" /></div>
-        <div class="">Dance</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/relajacion.jpg" alt="" /></div>
-        <div class="">Relajación</div>
-      </div>
-      <div class="">
-        <div class=""><img src="img/dinner.jpg" alt="" /></div>
-        <div class="">Para comer</div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/concentracion.jpg" alt="" /></div>
+          <div class=""><a href="#">Concentración</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/rock.jpg" alt="" /></div>
+          <div class=""><a href="#">Rock</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/indie.jpg" alt="" /></div>
+          <div class=""><a href="#">Indie/Alternativa</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/dance.jpg" alt="" /></div>
+          <div class=""><a href="#">Dance</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/relajacion.jpg" alt="" /></div>
+          <div class=""><a href="#">Relajación</a></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+          <div class=""><img src="img/dinner.jpg" alt="" /></div>
+          <div class=""><a href="#">Para comer</a></div>
+        </div>
       </div>
     </div>
+
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="app/js/sidebar.js"></script>
   </body>
 </html>
