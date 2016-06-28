@@ -1,0 +1,81 @@
+<html>
+<head>
+  <title>.:: Form ::.</title>
+</head>
+<body>
+  <form action="#" method="post" enctype="text/plain">
+    Nombre: 
+    <input type="text" name="nombre" maxlength="50"><br><br>
+    Apellidos: 
+    <input type="text" name="apellidos" maxlength="100">
+    <br><br>
+    Correo electrónico: 
+    <input type="text" name="correo" maxlength="100">
+    <br><br>
+    Población: 
+    <input type="text" name="poblacion" maxlength="50">
+    <br><br>
+    Provincia: 
+    <input type="text" name="provincia" maxlength="50">
+    <br><br>
+    <table>
+      <tr>
+        <td>
+          Edad:
+          <br>
+          <input type="radio" name="edad" value="020"> 0-20
+          <br>
+          <input type="radio" name="edad" value="2040" checked> 20-40
+          <br>
+          <input type="radio" name="edad" value="4060"> 40-60
+          <br>
+          <input type="radio" name="edad" value="60100"> 60-100
+        </td>
+        <td>
+          ¿Cómo nos conociste?
+          <br>
+          <input type="checkbox" name="conocer">
+          A través de un amigo.<br>
+          <input type="checkbox" name="conocer">
+          A través de un buscador.<br>
+          <input type="checkbox" name="conocer">
+          Navegando por la red.<br>
+          <input type="checkbox" name="conocer">
+          Otros
+        </td>
+      </tr>
+    </table>
+    <br>
+    Opinión sobre nuestra página web<br>
+    <textarea cols="40" rows="5" name="opinion">Escriba aquí su opinión...</textarea>
+    <br><br>
+    Tiene alguna sugerencia...
+    <br>
+    <textarea cols="40" rows="5" name="sugerencias">Escriba aquí sus sugerencias...</textarea>
+    <br><br>
+    ¿Cuánto navegas por intenet? (Señala la opción que más se acerque)<br>
+    <select name="frecuencia" size="2">
+      <option value="1">2 horas al día.
+      <option value="2">4 horas al día.
+      <option value="3">10 horas a la semana.
+      <option value="4">20 horas al mes.
+    </select>
+    <br>
+    <br>
+    <table width="50%" border="0" align="center" cellpadding="10" cellspacing="0">
+      <tr>
+        <td>
+          <div align="center">
+            <input type="submit" value="Enviar formulario">
+          </div>
+        </td>
+        <td>
+          <div align="center">
+            <input type="Reset" value="Borrar formulario">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
